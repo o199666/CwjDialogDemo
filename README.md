@@ -5,7 +5,7 @@ android 通用进度条，提示框，底部弹出框仿IOS
 效果图：   [效果图地址](http://note.youdao.com/noteshare?id=f365a1a2ea7cdeac4be207086a1db1f4&sub=WEB979d812a15be206c4cf17970bdc806e1 "效果图地址点击查看。"). 
 
 一，使用方法
-  
+  所有的属性 如果不想设置，皆可不用设置，会有默认值。只有需要改变，的时候可以设置。
 
 ##Kotlin---
 
