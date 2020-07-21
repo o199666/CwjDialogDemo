@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#209BDD</color>
+    <color name="colorPrimaryDark">#0091EA</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="red">#F44336</color>
+    <color name="yellow">#D8F18909</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#1679F1</color>
+    <color name="green">#24EA0E</color>
+    <color name="colorheise">#1D1E1E</color>
+
+    <!--    大标题-->
+    <color name="font_color_title">#303030</color>
+    <!--   文本 -->
+    <color name="font_color_text">#5A5A5A</color>
+    <!--    副标题-->
+    <color name="font_color_subtitle">#4C4C4C</color>
+<!-- 线条颜色   -->
+    <color name="line_color">#c1c1c1</color>
+
+    <!--  背景颜色 0 最底层 -->
+    <color name="bg_color_0">#F1F1F1</color>
+    <!--  baise  1 上一层 -->
+    <color name="bg_color_1">#FFFFFF</color>
+
+    <!--  菊花背景-->
+    <color name="dialog_bg_color">#B92E2E2E</color>
+    <color name="dialog_title_bg_color">#F2FBFAFA</color>
+    <color name="dialog_title_font_color">#FA0BABEA</color>
+    <color name="dialog_title_font_b_color">#FA030607</color>
+
+    <color name="dialog_bg_color_white">#F8FDFCFC</color>
+    <!--    对话字体颜色-->
+    <color name="dialog_font_color">#FDFDFD</color>
+    <color name="dialog_font_b_color">#070000</color>
+</resources>

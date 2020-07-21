@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/open_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="默认" />
+
+        <Button
+            android:id="@+id/close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="白色加载" />
+
+        <Button
+            android:id="@+id/success_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="成功" />
+
+        <Button
+            android:id="@+id/error_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="失败" />
+
+        <Button
+            android:id="@+id/waring_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="警告" />
+        <Button
+            android:id="@+id/time_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间" />
+        <Button
+            android:id="@+id/time1_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间1" />
+        <Button
+            android:id="@+id/coustom_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义进度" />
+        <Button
+            android:id="@+id/coustom3_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义进度2" />
+        <Button
+            android:id="@+id/coustom4_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义进度3" />
+
+        <Button
+            android:id="@+id/coustom1_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义状态1" />
+        <Button
+            android:id="@+id/coustom11_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义状态2" />
+        <Button
+            android:id="@+id/coustom12_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义状态3" />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/tip_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="默认" />
+        <Button
+            android:id="@+id/tip1_btn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="无标题，有内容确认取消" />
+        <Button
+            android:id="@+id/tip2_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="无标题有内容，只有一个按钮（默认确认按钮）" />
+        <Button
+            android:id="@+id/tip3_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="有标题有内容 只有一个按钮" />
+        <Button
+            android:id="@+id/tip4_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="有标题无内容 只有一个按钮" />
+
+        <Button
+            android:id="@+id/tip5_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="带有输入框" />
+
+        <Button
+            android:id="@+id/tip6_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="底部弹出" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

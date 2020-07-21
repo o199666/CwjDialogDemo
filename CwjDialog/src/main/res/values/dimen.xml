@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    1，字体：-->
+    <!--    常用字号:-->
+    <!--    12sp小字提示-->
+    <!--    14sp （桌面端13sp）正文/按钮文字-->
+    <!--    16sp （桌面端15sp）小标题-->
+    <!--    20sp Appbar文字-->
+    <!--    24sp大标题-->
+    <!--    34sp/45sp/56sp/112sp 超大号文字-->
+
+    <!--小字提示-->
+    <dimen name="sp_hint_font_12">12sp</dimen>
+    <dimen name="sp_body_font_14">14sp</dimen>
+    <dimen name="sp_small_title_font_16">16sp</dimen>
+    <dimen name="sp_appbar_font_20">20sp</dimen>
+    <dimen name="sp_appbar_font_22">22sp</dimen>
+    <dimen name="sp_big_title_font_24">24sp</dimen>
+
+    <!--    按钮-->
+    <dimen name="sp_appbar_font_18">18sp</dimen>
+    <!--超大号字体-->
+    <dimen name="sp_big_title_font_34">34sp</dimen>
+    <dimen name="sp_big_title_font_45">45sp</dimen>
+    <dimen name="sp_big_title_font_56">56sp</dimen>
+    <dimen name="sp_big_title_font_112">112sp</dimen>
+
+
+    <!--    2，边距
+    所有可操作元素最小点击区域尺寸：48dp X 48dp
+    栅格系统的最小单位是8dp，一切距离、尺寸都应该是8dp的整数倍。以下是一些常见的尺寸与距离:
+    另外注意56dp这个数字，许多尺寸可变的控件，比如对话框、菜单等，宽度都可以按56的整数倍来设计。还有非常多规范，不详细列举，遵循8dp栅格很容易找到适合的尺寸与距离。平板与PC上留白更多，距离与尺寸要相应增大-->
+    <!-- 底部导航 -->
+    <dimen name="dp_bottom_48dp">48dp</dimen>
+    <!-- 头部导航-->
+    <dimen name="dp_top_56">56dp</dimen>
+    <!--  用户头像 40/64  -->
+    <dimen name="dp_user_image_40">40dp</dimen>
+    <!--小图标点击区域-->
+    <dimen name="dp_small_icon_48">48dp</dimen>
+    <!-- 侧边抽屉到右边屏幕的距离  -->
+    <dimen name="dp_drawer_to_right_56">56dp</dimen>
+    <!--卡片间距 是8dp  多个卡片 所以是4-->
+    <dimen name="dp_card_space_4">4dp</dimen>
+    <!--   卡片圆角-->
+    <dimen name="dp_card_fillet_2">2dp</dimen>
+    <!--    卡片高度-->
+    <dimen name="dp_card_height_2">8dp</dimen>
+    <!--    5,分割线
+    列表中有头像、图片等元素时，使用内嵌分隔线，左端与文字对齐。没有头像、图标等元素时，需要用通栏分隔线。图片本身就起到划定区域的作用，相册列表不需要分隔线。
+    日常设计中有时候需要谨慎使用分隔线，留白和小标题也能起到分隔作用。能用留白的地方，优先使用留白。分隔线的层级高于留白，而通栏分隔线的层级高于内嵌分隔线-->
+    <!--分割线 同上 -->
+    <dimen name="dp_cut_off_grule_4">4dp</dimen>
+    <!-- 屏幕的边距 16  取一半  8dp-->
+    <dimen name="dp_margin_8">8dp</dimen>
+
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="56dp"
+    android:layout_marginRight="56dp"
+    android:background="@drawable/dialog_bg_share_title_ios"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:maxLines="2"
+            android:text="有新版本了!有新版本了! "
+            android:textColor="@color/dialog_title_font_b_color"
+            android:textSize="@dimen/sp_appbar_font_20" />
+
+        <TextView
+            android:id="@+id/content_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp"
+            android:text="当前版本过旧，请更新至最新版本体验新功能。同时更新了安全机制及隐私协议，更好的预防隐私泄露及信息安全"
+            android:textColor="@color/dialog_title_font_b_color"
+            android:textSize="@dimen/sp_body_font_14" />
+
+
+        <EditText
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:id="@+id/input_et"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/input_share_bg"
+            android:layout_marginTop="5dp"
+            android:gravity="center|left"
+            android:lines="1"
+            android:inputType="textPassword"
+            android:maxEms="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:maxLength="30"
+            android:textColor="@color/dialog_title_font_b_color"
+            android:textSize="@dimen/sp_body_font_14" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+    <!-- -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/yes_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/sp_appbar_font_18"
+            android:textStyle="normal" />
+
+
+        <View
+            android:layout_width="1px"
+            android:id="@+id/lin_v1"
+            android:layout_height="match_parent"
+            android:background="@color/line_color" />
+
+        <TextView
+            android:id="@+id/no_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/sp_appbar_font_18" />
+
+
+    </LinearLayout>
+</LinearLayout>
