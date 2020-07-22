@@ -9,12 +9,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        java_tv.setOnClickListener {
-            startActivity(Intent(this,JavaActivity::class.java))
-        }
-        kotlin_tv.setOnClickListener {
-            startActivity(Intent(this,KotlinActivity::class.java))
 
-        }
     }
 }

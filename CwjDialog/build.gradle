@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.novoda.bintray-release'  // 新增
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
@@ -9,7 +9,6 @@ android {
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }
@@ -32,4 +31,14 @@ dependencies {
 
     // https://mvnrepository.com/artifact/androidx.recyclerview/recyclerview
     implementation group: 'androidx.recyclerview', name: 'recyclerview', version: '1.2.0-alpha01'
+}
+
+// 新增
+publish {
+    userOrg = 'o199666'        //bintray.com用户名
+    groupId = 'com.cwj'    //jcenter上的路径
+    artifactId = 'cwjdialog'   //项目名称
+    publishVersion = '1.0.0'//版本号
+    desc = '通用的进度框，对话框'//描述，自由填写
+    website = 'https://github.com/o199666/CwjDialogDemo' // 网址，自由填写
 }

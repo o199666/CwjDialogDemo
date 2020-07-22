@@ -50,7 +50,7 @@ public class BottomDialogAdapter extends RecyclerView.Adapter<BottomDialogAdapte
     public void onBindViewHolder(@NonNull final MyHolder holder, int position) {
         holder.mTextView.setText(mData.get(position));
         holder.mTextView.setTextSize(size);
-        holder.mTextView.setTextColor(context.getResources().getColor(color));
+        holder.mTextView.setTextColor(context.getResources().getColor(color,null));
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
